@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Photography by Chanelle</title>
+
+	<!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    
+    <!-- Font Awesome -->
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    
+    <!-- custom CSS and JS -->
+    <link rel='stylesheet' href='style.css'/>
+	<script src='script.js'></script>
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 text-center">
+                <div class="page-heading">
+                    <h1>Chanelle</h1>
+                    <p>Freelance Photographer</p>
+                </div>
+                
+                <img src="https://dl.dropboxusercontent.com/u/2275776/profile1.jpg" class="img-circle" alt="Responsive image" />
+                
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris orci ligula, tristique ut lacus ac, pulvinar euismod lorem. Integer lobortis neque non dapibus vehicula. </p>
+            
+            <ul class="icons-ul text-left">
+                <li><i class="icon-li icon-large icon-envelope"></i>email{at}somewhere.com</li>
+                <li><i class="icon-li icon-large icon-phone-sign"></i>(555) 555-1234</li>
+                <li><i class="icon-li icon-large icon-instagram"></i><a href=#>instagram.com/kikiz24</a></li>
+            </ul>
+                
+            </div>
+            <div id="main" class="col-md-9">
+                <div class="media-left">
+                    <img src="https://dl.dropboxusercontent.com/u/2275776/splash1.jpg" class="img-responsive" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
