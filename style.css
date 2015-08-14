@@ -1,0 +1,21 @@
+@import url(http://fonts.googleapis.com/css?family=Dancing+Script:700);
+
+body {
+    font-family: serif;
+    font-size: 1.5em;
+    background-image: url("https://dl.dropboxusercontent.com/u/2275776/1960525.jpg");
+}
+
+.container {
+    padding-top:80px;
+}
+
+.page-heading h1{
+    font-family: 'Dancing Script', Helvetica, sans-serif;
+}
+
+#main img{
+    background-color: white;
+    border: solid 1px #aaa;
+    padding: 5px;
+}
