@@ -7,149 +7,110 @@
     <link href="style.css" rel="stylesheet" />
 </head>
 <body>
-    <!-- Fixed Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+    <!-- Fixed Top Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top navbar-inverse" role='navigation'>
         <div class="container">
-            <!-- Brand and toggle grouping for Mobile viewing -->
+            <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#topNavbar" aria-expanded="false">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">A. Alexander <small>- Web Developer</small></a>
+                <a class="navbar-brand" href="#">A. ALEXANDER - <small>Web Developer</small></a>
             </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="navbar-collapse collapse" id="navbar">
+            <!--Navigation Links-->
+            <div id="topNavbar" class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="#about">About Me</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#contact">Contact Me</a></li>
                 </ul>
             </div>
-            <!-- /.navbar-collapse -->
         </div>
-        <!-- /.container-fluid -->
     </nav>
-
-    <!-- Home Page -->
-    <div id="home" class="jumbotron">
-        <div class="container">
-            <!-- Main Header and tagline -->
-            <div class="row">
-                <div class="col-md-6 col-md-offset-3 text-center">
-                    <h1>A. Alexander</h1>
-                    <p>Functional web development fueled by coffee. <span class="glyphicon glyphicon-fire"></span></p>
-                </div>
-            </div>
-            <!-- Social media buttons on a new row -->
-            <div class="row">
-                <div class="text-center">
-                    <a href="http://github.com/awalx" class="btn btn-default btn-primary btn-lg"><i class="fa fa-github-square"></i> GitHub</a>
-                </div>
-            </div>
+    <!-- Initial Page Jumbotron -->
+    <div id="home" class="jumbotron text-center">
+        <div class="center-block textbox">
+            <h1>A. Alexander</h1>
+            <em>Web Developer</em>
+            <p>Functionality focused, creating web products that just work. <i class="fa fa-file-code-o"></i></p>
+            <a href="github.com/awalx" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-github fa-lg"></i> GitHub</a>
+            <a href="mailto:awalx1@gmail.com" class="btn btn-default btn-lg"><i class="fa fa-envelope fa-lg"></i> awalx1@gmail.com</a>
+            <a href="http://freecodecamp.com/awalx" target="_blank" class="btn btn-default btn-lg">(<i class="fa fa-fire fa-lg"></i>) freeCodeCamp</a>
+            <a href="codepen.io/awalx" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-codepen fa-lg"> </i> CodePen</a>
         </div>
     </div>
-
-    <!-- About Me content -->
+    <!-- About Me -->
     <div id="about" class="container-fluid">
-        <div class="row">
-            <div class="center-block">
-                <img src="http://placehold.it/200x200" alt="profile picture" class="img-responsive img-circle center-block" />
-            </div>
-        </div>
         <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-md-offset-3">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lacinia est in elit iaculis aliquam. Pellentesque malesuada rutrum magna, non tincidunt leo. Etiam iaculis ultrices auctor. Aliquam erat volutpat. Cras ut pellentesque ante. Donec
-                        eu lobortis augue, eu semper mi. Aliquam a eros id sapien sagittis tincidunt sed a odio.
-                    </p>
-                </div>
+            <h3 class="text-uppercase text-muted">About Me</h3>
+            <div class="textbox col-md-6 col-md-offset-3">
+                <!--profile picture-->
+                <img src="https://dl.dropboxusercontent.com/u/2275776/FCC%20Assets/profilepic1.png" alt="Profile Picture" class="img-responsive img-circle center-block margin-bottom-10" />
+                <!--bio-->
+                <p>I possess over 10 years of professional team member experience. From construction and PC deployment, to technical support and maintenance groups, my entire professional life has been working with groups of individuals to accomplish common goals.</p>
+                <p>I also have 5 years of professional leadership experience as a former manager of an online support team. I’ve always managed to progress into roles of added responsibilities moving from team member to leader in some regard.</p>
+                <p>Outside of work, I have a passion for helping others. One way in which I accomplish this is by organizing a sandwich assembling team to make sandwiches which go towards feeding D.C.’s homeless, via Central Union Mission and New Hope Church of God.</p>
+                <p>If you can understand what is presented on this website, then you can trust that I have good written communication skills. I also had to do spoken and visual presentations and tutorials during my time as a manager.</p>
+                <p>If you like what you see, feel free to reach out to me using any of the means provided on this website.</p>
             </div>
         </div>
     </div>
-
-    <!--</div>
-    -->
+    <!-- Portfolio Gallery -->
     <div id="portfolio" class="container-fluid">
-        <!-- Portfolio description -->
         <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <p>
-                        Vivamus dignissim posuere erat, nec congue tellus laoreet nec. Cras interdum vitae elit ac dignissim. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla a ante sapien. Integer cursus est metus, ut aliquam
-                        nibh dictum vitae. Aliquam non enim auctor ex ultrices ultricies ac at massa. Nullam dapibus ultrices aliquam. Nunc nec diam turpis.
-                    </p>
+            <h3 class="text-uppercase text-muted">My Portfolio</h3>
+            <div class="textbox">
+                <div class="row">
+                    <p>Check out few examples of my work.</p>
                 </div>
-            </div>
-            <!-- thumbnail gallery -->
-            <div class="row">
-                <div class="col-md-3 col-xs-6">
-                    <img src="http://placehold.it/210x140" alt="gallery thumbnail" class="img-thumbnail img-responsive" />
+                <div class="row">
+                    <div class="col-md-3 col-xs-6">
+                        <img src="http://placehold.it/300x200" alt="portfolio tumbnail" class="img-responsive img-thumbnail" />
+                    </div>
+                    <div class="col-md-3 col-xs-6">
+                        <img src="http://placehold.it/300x200" alt="portfolio tumbnail" class="img-responsive img-thumbnail" />
+                    </div>
+                    <div class="col-md-3 col-xs-6">
+                        <img src="http://placehold.it/300x200" alt="portfolio tumbnail" class="img-responsive img-thumbnail" />
+                    </div>
+                    <div class="col-md-3 col-xs-6">
+                        <img src="http://placehold.it/300x200" alt="portfolio tumbnail" class="img-responsive img-thumbnail" />
+                    </div>
                 </div>
-                <div class="col-md-3 col-xs-6">
-                    <img src="http://placehold.it/210x140" alt="gallery thumbnail" class="img-thumbnail img-responsive" />
-                </div>
-                <div class="col-md-3 col-xs-6">
-                    <img src="http://placehold.it/210x140" alt="gallery thumbnail" class="img-thumbnail img-responsive" />
-                </div>
-                <div class="col-md-3 col-xs-6">
-                    <img src="http://placehold.it/210x140" alt="gallery thumbnail" class="img-thumbnail img-responsive" />
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-md-3 col-xs-6">
-                    <img src="http://placehold.it/210x140" alt="gallery thumbnail" class="img-thumbnail img-responsive" />
-                </div>
-                <div class="col-md-3 col-xs-6">
-                    <img src="http://placehold.it/210x140" alt="gallery thumbnail" class="img-thumbnail img-responsive" />
-                </div>
-                <div class="col-md-3 col-xs-6">
-                    <img src="http://placehold.it/210x140" alt="gallery thumbnail" class="img-thumbnail img-responsive" />
-                </div>
-                <div class="col-md-3 col-xs-6">
-                    <img src="http://placehold.it/210x140" alt="gallery thumbnail" class="img-thumbnail img-responsive" />
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-md-3 col-xs-6">
-                    <img src="http://placehold.it/210x140" alt="gallery thumbnail" class="img-thumbnail img-responsive" />
-                </div>
-                <div class="col-md-3 col-xs-6">
-                    <img src="http://placehold.it/210x140" alt="gallery thumbnail" class="img-thumbnail img-responsive" />
-                </div>
-                <div class="col-md-3 col-xs-6">
-                    <img src="http://placehold.it/210x140" alt="gallery thumbnail" class="img-thumbnail img-responsive" />
-                </div>
-                <div class="col-md-3 col-xs-6">
-                    <img src="http://placehold.it/210x140" alt="gallery thumbnail" class="img-thumbnail img-responsive" />
+                <div class="row">
+                    <div class="col-md-3 col-xs-6">
+                        <img src="http://placehold.it/300x200" alt="portfolio tumbnail" class="img-responsive img-thumbnail" />
+                    </div>
+                    <div class="col-md-3 col-xs-6">
+                        <img src="http://placehold.it/300x200" alt="portfolio tumbnail" class="img-responsive img-thumbnail" />
+                    </div>
+                    <div class="col-md-3 col-xs-6">
+                        <img src="http://placehold.it/300x200" alt="portfolio tumbnail" class="img-responsive img-thumbnail" />
+                    </div>
+                    <div class="col-md-3 col-xs-6">
+                        <img src="http://placehold.it/300x200" alt="portfolio tumbnail" class="img-responsive img-thumbnail" />
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <div id="contact" class="container-fluid">
-        <!--Contact Info -->
-    </div>
-
-    <!-- Footer -->
-    <footer class="footer">
+    <!--Footer-->
+    <footer class="footer container-fluid">
         <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <p>&copy 2015 <a href="http://awalx.github.io">AwalX</a></p>
-                </div>
-                <div class="col-md-6">
-                    <ul id="footerNav" class="nav navbar-right">
-                        <li><a href="#about">About Me</a></li>
-                        <li><a href="#portfolio">Portfolio</a></li>
-                        <li><a href="#contact">Contact Me</a></li>
-                    </ul>
-                </div>
+            <div class="col-md-6">
+                <p>&copy 2015 AwalX</p>
+            </div>
+            <!--footer navigation-->
+            <div id="footerNav" class="col-md-6">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="mailto:awalx1@gmail.com"><i class="fa fa-envelope"></i> awalx1@gmail.com</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#">Back to top <i class="fa fa-arrow-circle-up"></i></a></li>
+                    <!--<li><a href="#contact">Contact Me</a></li>-->
+                </ul>
             </div>
         </div>
     </footer>
