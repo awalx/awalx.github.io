@@ -1,21 +1,49 @@
-@import url(http://fonts.googleapis.com/css?family=Dancing+Script:700);
-
+html,
 body {
-    font-family: serif;
-    font-size: 1.5em;
-    background-image: url("https://dl.dropboxusercontent.com/u/2275776/1960525.jpg");
+  height: 100%;
 }
 
-.container {
-    padding-top:80px;
+#home,
+#about,
+#portfolio {
+  overflow-y: auto;
+  min-height: 100%;
+  padding-top: 60px;
 }
 
-.page-heading h1{
-    font-family: 'Dancing Script', Helvetica, sans-serif;
+#home {
+  background-image: url("https://dl.dropboxusercontent.com/u/2275776/FCC%20Assets/drink_up.jpg");
+  background-color: #666666;
+  background-position: center bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: black;
 }
 
-#main img{
-    background-color: white;
-    border: solid 1px #aaa;
-    padding: 5px;
+#home .container{
+  margin-top: 100px;
+}
+
+#portfolio {
+  background-color: #f5f5f5;
+}
+
+#portfolio .row {
+  padding-top: 15px;
+}
+
+#contact {
+  height: 90%;
+}
+
+.footer {
+  position: relative;
+  bottom: 0;
+  padding-top: 10px;
+  width: 100%;
+  background-color: #f5f5f5;
+}
+
+#footerNav li {
+  display: inline-block;
 }
