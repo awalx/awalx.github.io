@@ -1,0 +1,90 @@
+html,
+body {
+		height: 100%;
+}
+
+#weatherApp {
+		height: 100%;
+		padding-top: 10%;
+		overflow-y: auto;
+}
+
+.white-box {
+		background-color: rgba(255, 255, 255, 0.7);
+		padding: 2% 1%;
+		border-radius: 10px;
+}
+
+h1 {
+		margin-top: 0;
+}
+
+.clear-day {
+		background-image: url('https://dl.dropboxusercontent.com/u/2275776/FCC%20Assets/weather/CLEAR%20artwork-01.jpg');
+		background-size: cover;
+		background-position: bottom center;
+}
+
+.clear-night {
+		background-image: url('https://dl.dropboxusercontent.com/u/2275776/FCC%20Assets/weather/CLEAR%20NIGHT%20artwork-01.jpg');
+		background-size: cover;
+		background-position: center top;
+}
+
+.partly-cloudy-day,
+.cloudy {
+		background-image: url('https://dl.dropboxusercontent.com/u/2275776/FCC%20Assets/weather/PARTLY%20CLOUDY%20DAY%20artwork-01.jpg');
+		background-size: cover;
+		background-position: center top;
+}
+
+.rain {
+		background-image: url('https://dl.dropboxusercontent.com/u/2275776/FCC%20Assets/weather/RAIN%20artwork-01.jpg');
+		background-size: cover;
+		background-position: center top;
+}
+
+.snow {
+		background-image: url('https://dl.dropboxusercontent.com/u/2275776/FCC%20Assets/weather/SNOW%20artwork-01.jpg');
+		background-size: cover;
+		background-position: center top;
+}
+
+.sleet {
+		background-image: url('https://dl.dropboxusercontent.com/u/2275776/FCC%20Assets/weather/SLEET%20artwork-01.jpg');
+		background-size: cover;
+		background-position: center top;
+}
+
+.wind {
+		background-image: url('https://dl.dropboxusercontent.com/u/2275776/FCC%20Assets/weather/WIND-artwork-01.jpg');
+		background-size: cover;
+		background-position: center top;
+}
+
+.fog {
+		background-image: url('https://dl.dropboxusercontent.com/u/2275776/FCC%20Assets/weather/FOG%20artwork-01.jpg');
+		background-size: cover;
+		background-position: center top;
+}
+
+.partly-cloudy-night {
+		background-image: url('https://dl.dropboxusercontent.com/u/2275776/FCC%20Assets/weather/CLOUDY%20NIGHT%20artwork-01.jpg');
+		background-size: cover;
+		background-position: center top;
+}
+
+.thunderstorm {
+		background-image: url('https://dl.dropboxusercontent.com/u/2275776/FCC%20Assets/weather/LIGHTNING%20artwork-01.jpg');
+		background-size: cover;
+		background-position: center top;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 40px;
+  background-color: transparent;
+}
